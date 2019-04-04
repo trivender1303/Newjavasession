@@ -21,17 +21,22 @@ public class Testcar12 {
 		c.engine();
 
 		System.out.println("**********");
-		//this is called dynamic polymorphism -- run time polymorphism
-		//this is also called top casting
+		// this is called dynamic polymorphism -- run time polymorphism
+		// this is also called top casting
 		Car12 c1 = new BMW12();
 		c1.start();
 		c1.stop();
 		c1.refuel();
 		c1.engine();
-		
-		
-		
-		
+
+		// down casting
+		// down casting is not allowed
+		// BMW b1 = (BMW) new Car();// class cast exception
+		/*
+		 * we have covered inheritance method overriding compile time
+		 * polymorphism run time polymorphism down casting top casting
+		 */
+
 	}
 
 }

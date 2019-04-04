@@ -1,8 +1,8 @@
 package OOPsConceptPart2;
 
-public class BMW12 extends Car12 {
+public class BMW12 extends Car12 {// "has a relationship"
 
-	public void start() {//overridden method
+	public void start() {// overridden method
 		System.out.println("BMW--start method");
 	}
 
